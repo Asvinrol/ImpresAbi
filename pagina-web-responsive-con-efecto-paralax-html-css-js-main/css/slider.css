@@ -5,16 +5,18 @@
 }
 #container-slider
 {
+    height: 700px;
     position: relative;
     display: block;
     width: 100%;
+    background: #d91111;
 }
 #slider {
     position: relative;
     display: block;
     width: 100%;
     height: 50vh;
-    min-height: 500px;
+    min-height: 700px;
 }
 #slider li {
     background-repeat: no-repeat;
@@ -57,7 +59,7 @@
     text-align: center;
 }
 .content_slider h2{
-    font-family: 'arial';
+    font-family: 'Roboto';
     font-size: 30pt;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -65,7 +67,7 @@
 }
 .content_slider p {
     font-size: 15pt;
-    font-family: 'arial';
+    font-family: 'Roboto';
     color: #FFF;
     margin-bottom: 20px;
 }
@@ -85,7 +87,7 @@
 .btnSlider{
     color: #FFF;
     font-size: 15pt;
-    font-family: 'arial';
+    font-family: 'Roboto';
     letter-spacing: 1px;
     padding: 10px 50px;
     border: 1px solid #CCC;
